@@ -12,11 +12,11 @@ fi
 echo -e "${NC}"
 
 cd $ROS_WS/src
-git clone https://github.com/robots-helpinghandslab/universal_robot.git -b kinetic-devel #-b openrave
-git clone https://github.com/robots-helpinghandslab/ur_modern_driver.git -b kinetic-devel
+git clone https://github.com/robots-helpinghandslab/ur_modern_driver.git -b kinetic-devel 
 git clone https://github.com/robots-helpinghandslab/robotiq.git -b kinetic-devel
-git clone https://github.com/robots-helpinghandslab/or_ompl.git 
-git clone https://github.com/robots-helpinghandslab/openrave_catkin.git 
+git clone https://github.com/robots-helpinghandslab/universal_robot.git -b openrave_ur5
+git clone https://github.com/robots-helpinghandslab/or_ompl.git -b openrave_ur5
+git clone https://github.com/robots-helpinghandslab/openrave_catkin.git
 cd $ROS_WS
 catkin_make
 
