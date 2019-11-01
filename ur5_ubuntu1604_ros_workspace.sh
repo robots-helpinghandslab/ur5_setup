@@ -1,4 +1,12 @@
+#!/bin/bash
+#
 # Setup a ROS workspace with the required packages.
+#
+
+if [[ $# -ne 1 ]]; then
+    echo "Illegal number of parameters"
+    exit 2
+fi
 
 ROS_WS=$1
 

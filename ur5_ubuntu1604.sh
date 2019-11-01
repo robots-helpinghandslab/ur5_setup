@@ -1,3 +1,8 @@
+#!/bin/bash
+#
+# Setup a Software directory and a ROS workspace for the ur5 robot.
+#
+
 #SOFTWARE_DIR=/home/$USER/Software
 ROS_WS=/home/$USER/ur5_ws
 
